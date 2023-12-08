@@ -2,12 +2,10 @@
 
 html {
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(7,46,51,1) 50%);
 }
 
 .banner {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(7,46,51,1) 50%);
+    background: url(img/bg.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -59,4 +57,12 @@ html {
     transform: scale(100) translateX(2px);
   }
 
-  
+  .mobile-menu {
+    color: white;
+  }
+
+
+  .mobile-menu:hover {
+    color: #fff;
+    transition: 0.5s;
+}
