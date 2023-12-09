@@ -6,11 +6,11 @@ html {
   
 
 .mobile-menu {
-    color: white;
+    color: black;
   }
 
 
   .mobile-menu:hover {
-    color: #fff;
+    color: #0C7075;
     transition: 0.5s;
 }
