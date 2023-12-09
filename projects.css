@@ -4,3 +4,13 @@ html {
     font-family: 'Ubuntu', sans-serif;
 }
   
+
+.mobile-menu {
+    color: white;
+  }
+
+
+  .mobile-menu:hover {
+    color: #fff;
+    transition: 0.5s;
+}
