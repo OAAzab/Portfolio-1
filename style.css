@@ -66,3 +66,90 @@ html {
     color: #fff;
     transition: 0.5s;
 }
+
+.nav-link {
+  color: white !important;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: #0C7075 !important;
+}
+
+
+@media only screen and (max-width:750px) {
+  .banner[background-image] {
+   filter: blur(50px);
+}
+
+.banner {
+  background-image: url(img/jschmidtblurred.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.nav-link {
+  color: black !important;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: #0C7075 !important;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  background-color: rgba(7,46,51,1);;
+  cursor: pointer;
+  border: 2px solid #252525;
+  overflow: hidden;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  margin-right: 10px;
+}
+
+.btn-txt {
+  z-index: 1;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+.type1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #333;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 200px #252525;
+  color: rgba(7,46,51,1);;
+  border: none;
+  background: white;
+}
+
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
+
+.mobile-menu {
+  color: black;
+}
+
+
+.mobile-menu:hover {
+  color: black;
+  transition: 0.5s;
+}
+}
