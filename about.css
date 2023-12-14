@@ -24,6 +24,18 @@ html {
     transition: all 0.5s ease-in-out;
     margin-right: 10px;
   }
+
+  .nav-link {
+    color: black !important;
+    font-weight: 500 !important;
+    transition: 0.5s !important;
+    font-size: 20px !important;
+    font-family: 'Ubuntu', sans-serif !important;
+  }
+  
+  .nav-link:hover {
+    color: #0C7075 !important;
+  }
   
   .btn-txt {
     z-index: 1;
@@ -57,12 +69,4 @@ html {
     transform: scale(100) translateX(2px);
   }
 
-  .mobile-menu {
-    color: black;
-  }
-
-
-  .mobile-menu:hover {
-    color: #0C7075;
-    transition: 0.5s;
-}
+  

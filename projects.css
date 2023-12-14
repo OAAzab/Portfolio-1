@@ -4,13 +4,14 @@ html {
     font-family: 'Ubuntu', sans-serif;
 }
   
-
-.mobile-menu {
-    color: black;
+.nav-link {
+    color: black !important;
+    font-weight: 500 !important;
+    transition: 0.5s !important;
+    font-size: 20px !important;
+    font-family: 'Ubuntu', sans-serif !important;
   }
-
-
-  .mobile-menu:hover {
-    color: #0C7075;
-    transition: 0.5s;
-}
+  
+  .nav-link:hover {
+    color: #0C7075 !important;
+  }
